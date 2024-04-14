@@ -1,0 +1,27 @@
+
+
+
+:root {
+  --idk: rgb(135, 131, 240);
+  --main: #ff9900;
+  --main2: rgb(33,37,41);
+
+  --main3: #945c09b3;
+  --main4: #ff9500b3;
+  --main-white: #ffffff;
+  --title-color: #ff9900;
+  --text-color: rgb(33,37,41);
+  --icons-color: #f19d20;
+  --text-color2:rgb(255, 255, 255);
+  --err: #d81111c0;
+  --bg-color: rgb(33,37,41);
+  --bg-color2: #f19d20;
+  --i3blapink: #fbc0d5;
+  --i3blapink2: #f3a6c1;
+  --err: #d81111c0;
+
+
+  --error-message-bg:  #d81111;
+  --error-message-text:  #f1f1f1c0;
+  --main--bg--Features: #ffffff;
+}

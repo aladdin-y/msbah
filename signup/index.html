@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/public/colors.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body>
+    <main class="container">
+        <h2>Sign Up</h2>
+        <form action="" id="signup-form">
+            <div class="input-field">
+                <input type="text" name="username" id="username"
+                    placeholder="Enter Your Username">
+                <div class="underline"></div>
+            </div>
+            <div class="input-field">
+                <input type="email" name="gmail" id="gmail"
+                    placeholder="Enter Your Gmail">
+                <div class="underline"></div>
+            </div>
+            <div class="input-field">
+                <input type="password" name="password" id="password"
+                    placeholder="Enter Your Password">
+                <div class="underline"></div>
+            </div>
+            <div class="error-message" id="error"></div>
+    
+            <input type="submit" value="Continue">
+        </form>
+
+        <div class="footer">
+            <span>Or Connect With Social Media</span>
+            <div class="social-fields">
+
+
+                <div class="social-field discord">
+                    <a href="#">
+                        <i class="fab fa-discord"></i>
+                        Sign in with Discord
+                    </a>
+                </div>
+     
+                <div class="social-field github">
+                    <a href="#">
+                        <i class="fab fa-github"></i>
+                        Sign in with Github
+                    </a>
+                </div>
+       
+            </div>
+
+        </div>
+        <a href="../login/index.html">
+
+        <h6 class="login" >ALREADY HAVE AN ACCOUNT?</h6>
+    </a>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="./index.js"></script>
+
+</body>
+</html>

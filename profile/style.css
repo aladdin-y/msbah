@@ -1,0 +1,195 @@
+
+
+#fileInput {
+  display: none;
+}
+#previewImage {
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 3px dotted var(--main);
+  transition: .5s;
+  cursor: pointer;
+}
+
+#previewImage:hover {
+  filter: brightness(75%);
+  transition: .5s;
+
+}
+
+body {
+  background-image: url(https://cdn.discordapp.com/attachments/1132423311721250928/1227032521565274194/je2cyTG.png?ex=6626ee16&is=66147916&hm=2eafda8b94b3705812e0bf04af263141fdc71c7e3de7aa501f4b32a06101c483&);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://cdn.discordapp.com/attachments/1132423311721250928/1227032521565274194/je2cyTG.png?ex=6626ee16&is=66147916&hm=2eafda8b94b3705812e0bf04af263141fdc71c7e3de7aa501f4b32a06101c483&');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: loading-screen 1s forwards; /* تحديد اسم ال keyframes وفترة الزمن والتأثير */
+  z-index: 9999;
+}
+
+@keyframes loading-screen {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(3);
+  }
+
+  99% {
+    opacity: 1;
+    transform: scale(-0.001);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+.profile {
+  
+  margin: 50px 0;
+    width: 555px;
+    max-width: 100%;
+    background-color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    border-radius: 20px
+  }
+
+main h3 {
+  font-weight: 600;
+  margin-bottom: 2rem;
+  position: relative;
+}
+main h3::before {
+  content: '';
+  position: absolute;
+  height: 4px;
+  width: 34px;
+  bottom: -2px;
+  left: 0;
+  border-radius: 8px;
+  background: linear-gradient(45deg, var(--main), var(--main2));
+}
+
+.avatar {
+  position: relative;
+  left: 40%;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+
+  
+  border-style:inset;
+  border-color: #ffffff;
+  border-radius: 2.2ch;
+  max-width: 100%; /* تحديد الحد الأقصى للعرض */
+  max-height: 10vh; /* تحديد الحد الأقصى للارتفاع */
+}
+
+.info p {
+
+  margin: 5px 0;
+}
+
+.edit-btn {
+  padding: 8px 16px;
+  background: linear-gradient(to left, var(--main), var(--main2));
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: relative;
+  margin-left: 80%;
+top: -24px;
+  
+}
+
+.edit-btn:hover {
+  filter: brightness(80%);
+}
+
+
+.social-icons .fa {
+	font-size: 1em;
+}
+.social-icons .fa {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #FFF;
+	color: rgba(255, 255, 255, 0.8);
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.social-icons.icon-circle .fa{ 
+	border-radius: 50%;
+}
+.social-icons.icon-rounded .fa{
+	border-radius:5px;
+}
+.social-icons.icon-flat .fa{
+	border-radius: 0;
+}
+
+.social-icons .fa:hover, .social-icons .fa:active {
+	color: #FFF;
+	-webkit-box-shadow: 1px 1px 3px #333;
+	-moz-box-shadow: 1px 1px 3px #333;
+	box-shadow: 1px 1px 3px #333; 
+}
+.social-icons.icon-zoom .fa:hover, .social-icons.icon-zoom .fa:active { 
+ 	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1); 
+}
+.social-icons.icon-rotate .fa:hover, .social-icons.icon-rotate .fa:active { 
+	-webkit-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+	transform: scale(1.1) rotate(360deg);
+}
+ 
+.fa {
+  background-color:Red;
+  position: relative;
+  left: 90%;
+
+
+} 
+
+
