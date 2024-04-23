@@ -1,0 +1,49 @@
+
+.main {
+    position: relative;
+ top: 60px;
+ left: 55%;
+ width: 50%;
+ height: 320px;
+
+}
+
+.main-name {
+    position: relative;
+ right: 40%;
+ top: 70px;
+ color: var(--main);
+ 
+ align-items: center;
+ justify-content: center;
+ border-radius: 18px;
+ font-size: 22px;
+ font-weight: bold;
+}
+
+.main .main-slide img{
+    border: var(--main) 5px solid;
+    border-radius: 10%;
+     width: 92%;
+}
+
+
+
+@media (max-width: 500px) { /* استخدام وسائط الاستجابة للأجهزة الصغيرة */
+
+
+    .main {
+        position: relative;
+     left: 0% !important;
+     width: 100% !important;
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 500px) { 
+    
+    .main {
+        position: relative;
+     left: 0% !important;
+     width: 100% !important;
+    } 
+}

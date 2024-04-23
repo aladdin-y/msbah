@@ -172,3 +172,21 @@ position: relative;
     border-radius: 5px;
     top: 20px;
 }
+.show-btn {
+    padding: 4px 8px;
+    background: linear-gradient(to left, var(--main), var(--main2));
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: relative;
+    left: 80%;
+    top:-55px;
+    width: 24%;
+  }
+  
+  .show-btn:hover {
+    filter: brightness(80%);
+  }
+  

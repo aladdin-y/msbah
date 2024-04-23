@@ -1,0 +1,111 @@
+/* 
+body {
+    background: var(--main2);
+}
+ */
+
+
+ body {
+    overflow-x: hidden;
+ }
+
+
+ .breadcrumb a {
+    text-decoration: none;
+    color: inherit; /* استخدام لون النص الافتراضي */
+  }
+  
+ .Our_Work .designs-main {
+    border-bottom: var(--main) 1px solid;
+    
+
+ }
+.types_menu {
+    position: relative;
+    left: 30%;
+
+}
+.type {
+    margin: 10px;
+}   
+.Our_Work .work {
+    position: relative;
+    display: inline-block;
+    width: 45%; /* استخدم وحدة النسبة المئوية بدلاً من القيمة الثابتة */
+    background-color: var(--main);
+    border-radius: 2.2ch;
+    box-shadow: 0 0 8px 3px var(--main2);
+    margin: 2%; /* زيادة التباعد بين العناصر */
+    transition: 1s;
+    text-align: center;
+}
+
+.Our_Work .works {
+    width: 100%; /* تأكد من أن العناصر تحتل العرض الكامل */
+}
+
+.Our_Work .work:hover {
+    transform: scale(1.07);
+    box-shadow: 0 0 10px 2px var(--bg-color2);
+}
+
+.Our_Work .work .card-body img {
+    width: 100%;
+    border: #ffffff 3px solid;
+    border-radius: 2%;
+}
+
+@media (max-width: 768px) { /* استخدام وسائط الاستجابة للأجهزة الصغيرة */
+    .Our_Work .work {
+        width: 100% !important; /* جعل العناصر تحتل العرض الكامل على الأجهزة الصغيرة */
+    }
+}
+
+
+@media (min-width: 1200px)and (max-width: 1790px) {
+    .Our_Work {
+        left: 15%;
+        position: relative;
+    }
+}
+@media (min-width: 1200px) {
+    .Our_Work .work {
+
+        margin: 1% !important;
+        right: 10% !important; /* تم تغيير right إلى left هنا */
+        width: 20% !important;
+    }
+    
+    .Our_Work .works {
+        width: 150% !important;
+    }
+    
+
+    
+
+    
+}
+
+
+
+
+
+
+
+
+.designs {
+    left: 30%;
+    width: 35%;
+    position: relative;
+  }
+  
+  @media (max-width: 991px){
+  
+  
+  .designs {
+    left: 15%;
+  
+    width: 60% !important;
+    position: relative;
+  }
+  }

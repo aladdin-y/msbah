@@ -21,11 +21,10 @@
   
 
 
-  <div class="loading-screen"></div>
 
 
 
-  <main class="profile">
+  <main class="profile placeholder-glow">
         
 
   <ul class="social-icons icon-circle icon-rotate list-unstyled list-inline"> 
@@ -34,25 +33,26 @@
 
 
   </ul>
-
+<div class="avatar-file">
   <input type="file" id="fileInput" accept="image/*">
   <label for="fileInput">
-      <img id="previewImage" alt="User Avatar" class="avatar" src="https://msbah.xyz/img/members/png">
+      <img id="previewImage" alt="User Avatar" class="avatar placeholder" src="https://api.msbah.xyz/img/members/png">
   </label>
+</div>
 
   
 <div class="info">
   <p class="username"><h3>Username:</h3>
-  <span id="username">John Doe</span> <button class="edit-btn edit-name">Edit</button></p>
+  <span id="username" class="placeholder col-2">John Doe</span> <button class="edit-btn edit-name">Edit</button></p>
   <br>
 
 
   <p><h3>Gmail:</h3>
-     <span id="gmail">johndoe@gmail.com</span> <button class="edit-btn edit-gmail">Edit</button></p>
+     <span id="gmail" class="placeholder col">johndoe@gmail.com</span> <button class="edit-btn edit-gmail">Edit</button></p>
 
      <br>
   <p><h3>Password:</h3>
-     <span id="password">*********</span> <button class="edit-btn edit-password" >Edit</button></p>
+     <span id="password" class="placeholder col-4">*********</span> <button class="edit-btn edit-password" >Edit</button></p>
 </div>
 
   </main>

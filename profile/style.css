@@ -12,6 +12,24 @@
   cursor: pointer;
 }
 
+.avatar-file {
+  position: relative;
+  left: 40%;
+  height: 90px;
+  top:-20px;
+}
+.avatar {
+
+  margin: 0 auto 20px;
+  border-radius: 50%;
+
+  
+  border-style:inset;
+  border-color: #ffffff;
+  border-radius: 2.2ch;
+  max-width: 100%; /* تحديد الحد الأقصى للعرض */
+  max-height: 10vh; /* تحديد الحد الأقصى للارتفاع */
+}
 #previewImage:hover {
   filter: brightness(75%);
   transition: .5s;
@@ -98,19 +116,7 @@ main h3::before {
   background: linear-gradient(45deg, var(--main), var(--main2));
 }
 
-.avatar {
-  position: relative;
-  left: 40%;
-  margin: 0 auto 20px;
-  border-radius: 50%;
 
-  
-  border-style:inset;
-  border-color: #ffffff;
-  border-radius: 2.2ch;
-  max-width: 100%; /* تحديد الحد الأقصى للعرض */
-  max-height: 10vh; /* تحديد الحد الأقصى للارتفاع */
-}
 
 .info p {
 

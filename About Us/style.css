@@ -16,6 +16,61 @@ body {
 
 }
 
+.info{
+    display: flex; 
+}
+.container .designs {
+    left: 0%;
+    width: 50%;
+    
+    position: relative;
+  }
+
+  .info .designs {
+    left: 30% !important;
+    width: 50% !important;
+    
+    position: relative !important;
+  }
+  
+  @media (max-width: 991px){
+  
+.subtitle {
+    width: 100% !important;
+}
+    .info{
+        display: block; 
+    }
+
+  .info .designs {
+    left: 0% !important;
+  
+    width: 100% !important;
+    position: relative;
+  }
+  .container .designs {
+    left: 0% !important;
+  
+    width: 100% !important;
+    position: relative;
+  }
+
+
+
+  .accordion {
+    transform: scaleY(-1);
+    
+    width: 90% !important;
+    position: relative;
+    top: -250px;
+    left: 6% !important;
+
+}
+
+
+  }
+
+  
 .nav-link {
      font-size: 14px !important;
      background: transparent !important;
@@ -76,6 +131,7 @@ body {
 }
 
 .subtitle {
+    width: 50%;
     color: rgba(255, 255, 255, 0.685) !important;
     font-size: 16px !important;
     font-family: 'Lato', sans-serif;
@@ -363,13 +419,27 @@ p {
 
 }
 .FAQ {
-    padding: 160px 50px !important;
     color: #fff !important;
     background-image: url("../imgs/Layer 1.png") !important;
     background-position: bottom !important;
     background-size: 300% !important;
     background-repeat: no-repeat !important;
     transform: scaleY(-1);
+}
+
+
+.FAQ .container {
+    font-weight: 600 !important;
+    color: #ffca00 !important;
+    font-family: "Alexandria", sans-serif;
+    
+    font-optical-sizing: auto;
+
+    text-align: center !important;
+    padding: 60px 50px !important;
+    background-position: bottom !important;
+    background-size: 200% !important;
+    background-repeat: no-repeat !important;
 }
 
 
